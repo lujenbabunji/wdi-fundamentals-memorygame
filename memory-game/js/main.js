@@ -27,12 +27,10 @@ const cardsInPlay = [];
 
 function checkForMatch(){
 	if (cardsInPlay[0] === cardsInPlay[1]) {
-     //alert
-     console.log("You found a match!");
+     alert("You found a match!");
      }
      else {
-     //alert
-     console.log("Sorry, try again.");
+     alert("Sorry, try again.");
      }
 }
 
